@@ -6,8 +6,7 @@ qr = qrcode.QRCode(
      border = 5
 )
 
-data = "https://www.linkedin.com/in/ar
-n-k-s-a70278157/"
+data = "https://www.linkedin.com/in/arjun-k-s-a70278157/"
 
 qr.add_data(data)
 qr.make(fit = True)
